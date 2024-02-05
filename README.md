@@ -17,13 +17,15 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 ## Usage
 
-1. Clone the repository using a terminal or command prompt:
+1. Ensure Python 3 (or later) is installed. If not, download and install it from [python.org](https://www.python.org/downloads/).
+
+2. Clone the repository using a terminal or command prompt:
 
     ```bash
     git clone https://github.com/nahuelsiemaszko/facial-expression-recognition.git
     ```
 
-2. Set up a virtual environment:
+3. Set up a virtual environment:
 
     ```bash
     python -m venv venv
@@ -32,15 +34,15 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
     .\venv\Scripts\activate  # For Windows
     ```
 
-3. Install dependencies:
+4. Install dependencies:
 
     ```bash
     pip install numpy opencv-python pillow scikit-learn tensorflow
     ```
 
-4. Download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
+5. Download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
-5. Train the model or skip this step to use a pre-trained model:
+6. Train the model or skip this step to use a pre-trained model:
 
 - To train the model, first delete the "model.h5.zip" file and run:
 
@@ -48,7 +50,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
     python main.py
     ```
 
-6. Use the model
+7. Use the model
    
 - To use the model, if you skipped step 5, unzip the 'model.h5.zip' file, and then run the following command. If you didn't skip step 5, run the command directly:
 
@@ -56,9 +58,9 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
     python use.py
     ```
 
-7. Press 'q' to exit when done.
+8. Press 'q' to exit when done.
 
-8. Deactivate the virtual environment:
+9. Deactivate the virtual environment:
 
     ```bash
     deactivate
