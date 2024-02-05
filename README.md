@@ -17,7 +17,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 ## Usage
 
-1. Clone the repository:
+1. Clone the repository using a terminal or command prompt:
 
     ```bash
     git clone https://github.com/nahuelsiemaszko/facial-expression-recognition.git
