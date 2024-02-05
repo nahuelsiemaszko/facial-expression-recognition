@@ -20,8 +20,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/nahuelsiemaszko/portfolio.git
-    cd portfolio/facial-expression-recognition
+    git clone https://github.com/nahuelsiemaszko/facial-expression-recognition.git
     ```
 
 2. Set up a virtual environment:
