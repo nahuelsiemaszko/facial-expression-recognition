@@ -42,9 +42,9 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 5. Train the model (optional):
 
-- First download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
+- First, download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
-- Then delete the "model.h5" file and run:
+- Then, delete the "model.h5" file and run:
 
     ```bash
     python main.py
