@@ -40,27 +40,27 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
     pip install numpy opencv-python pillow scikit-learn tensorflow
     ```
 
-5. Download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
+5. Train the model (optional):
 
-6. Train the model or skip this step to use a pre-trained model:
+- First download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside your project folder.
 
-- To train the model, first delete the "model.h5.zip" file and run:
+- Then delete the "model.h5" file and run:
 
     ```bash
     python main.py
     ```
 
-7. Use the model
+6. Use the model:
    
-- To use the model, if you skipped step 5, unzip the 'model.h5.zip' file, and then run the following command. If you didn't skip step 5, run the command directly:
+- Run the following command:
 
     ```bash
     python use.py
     ```
 
-8. Press 'q' to exit when done.
+- Press 'q' to exit when done.
 
-9. Deactivate the virtual environment:
+7. Deactivate the virtual environment:
 
     ```bash
     deactivate
