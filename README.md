@@ -19,7 +19,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 1. Ensure Python 3 (or later) is installed. If not, download and install it from [python.org](https://www.python.org/downloads/).
 
-2. Clone the repository using a terminal or command prompt:
+2. Using a terminal or command prompt, clone the repository:
 
     ```bash
     git clone https://github.com/nahuelsiemaszko/facial-expression-recognition.git
@@ -51,8 +51,6 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
     ```
 
 6. Use the model:
-   
-- To use the model, run the following command:
 
     ```bash
     python use.py
