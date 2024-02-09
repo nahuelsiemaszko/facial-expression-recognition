@@ -52,7 +52,7 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 6. Use the model:
    
-- Run the following command:
+- To use the model, run the following command:
 
     ```bash
     python use.py
