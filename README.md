@@ -44,13 +44,15 @@ The project uses TensorFlow for model construction and training, and OpenCV for 
 
 - First, download the [FER-2013 dataset](https://www.kaggle.com/datasets/msambare/fer2013) and save it inside the folder "facial-expression-recognition".
 
-- Then, delete the "model.h5" file and run:
+- Then, delete the "model.h5.zip" file and run:
 
     ```bash
     python main.py
     ```
 
 6. Use the model:
+
+- If you skipped step 5, unzip the 'model.h5.zip' file, and then run the following command. If you didn't skip step 5, run the command directly:
 
     ```bash
     python use.py
