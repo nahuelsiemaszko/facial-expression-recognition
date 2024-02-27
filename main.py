@@ -58,15 +58,12 @@ model.add(Dense(7, activation='softmax'))
 model.compile(optimizer='adam', loss='categorical_crossentropy', metrics=['accuracy'])
 print(model.summary())
 
-train_path = "archive/train/"
-test_path = "archive/test/"
-
 num_train_imgs = 0
-for root, dirs, files in os.walk(train_path):
+for root, dirs, files in os.walk(train_data_dir):
     num_train_imgs += len(files)
 
 num_test_imgs = 0
-for root, dirs, files in os.walk(test_path):
+for root, dirs, files in os.walk(validation_data_dir):
     num_test_imgs += len(files)
 
 epochs = 90
